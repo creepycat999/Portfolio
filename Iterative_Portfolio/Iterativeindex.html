@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href ="Iterativestyle.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+        <title>Iterative Design & Evaluation</title>
+        <meta charset="UTF-8" />
+        <script src="https://kit.fontawesome.com/b56543adaf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class = "hero">
+            <a class = "home" href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html">
+                portfolio 
+            </a>
+                <button class = "hamburger" id = "hamburger">
+                    <i class = "fas fa-bars"> </i>
+                </button>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">
+                    top
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            <div class="hero-area">
+                <div class="hero-text"> 
+                    <h1>Iterative Redesign</h1>
+                    <p>NFTScoring is an NFT trading platform with the goal of giving NFT investors all the information needed in order to make smart decisions when buying or selling NFTs. Anyone can use a free account, but there is also a premium version for users to gain more access.
+                        In this group project, we designed a mobile app for the platform using an iterative user-testing process to incorporate feedback into our final product. We expect our app to serve users within a range between beginners and moderately knowledgable about NFTs. The aim is to create a product that is easy to navigate for users who are new to NFT trading.</p> 
+                </div>
+            </div>
+        </section>
+        <section class = "projects-section" id = "projects">
+            <h2>Sketching</h2>
+            <p> We came up with four different possible designs for the app. Each design imagines a different user flow through a unique organization of components for the app.</p>
+                <div style="width: 100%; align-items: center; display: flex; flex-direction: column">
+                    <img style="padding-top: 6%" src="images/sketch2.png" width="700px"> 
+                    <img style="padding-top: 6%" src="images/sketch3.png"width="700px"> 
+                    <img style="padding-top: 6%" src="images/sketch1-1.png"width="700px">
+                    <img style="padding-top: 0%" src="images/sketch1-2.png"width="700px">
+                    <img style="padding-top: 6%" src="images/sketch4.png"width="700px">
+                </div>
+        </section>
+        <section class = "projects-section" id = "projects">
+            <h2>Wireframing</h2>
+            <p>Combining the best features of each sketch, we developed one coherent layout for the app's pages. The main flow of the app includes a "Home" page with a newsfeed, a "Wallet" page showing the user's current assets, a "Discover" page to serach for specific NFT's, and a "Learn" page with information about NFT trading and the app itself.</p>
+            <div class = "image-container">
+            <img class = "wireframe" src = "images/wireframe1.png" alt = "wireframe of nft scoring app"/>
+            <img class = "wireframe" src = "images/wireframe.png" alt = "wireframe of nft scoring app"/>
+            <img class = "wireframe" src = "images/wireframe3.png" alt = "wireframe of nft scoring app"/>
+            <img class = "wireframe" src = "images/wireframe4.png" alt = "wireframe of nft scoring app"/>
+            <img class = "wireframe" src = "images/wireframe5.png" alt = "wireframe of nft scoring app"/>
+            <img class = "wireframe" src = "images/wireframe6.png" alt = "wireframe of nft scoring app"/>
+        </div>
+        </section>
+            <section class = "projects-section" id = "projects">
+                <h2>Hi-Fi</h2>
+                    <p>We then fleshed out the wireframes into a hi-fi interactive prototype.</p>
+                    <div class="figma">
+                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQ6Pmr6BzSpfLwdcOo2LStB%2FNFTScoring-Final-Draft%3Fnode-id%3D0%253A1%26t%3Do8mdBCYrWns8F3w7-1" allowfullscreen></iframe>
+                    </div>
+                </section>
+        <section class = "projects-section" id = "projects">
+            <h2>Critique</h2>
+                <p>We asked a group of peers to review our mockup and provide feedback on the interface. The feedback we received can be summarized by the following categories:
+                    <ul>
+                    <li>Popups: the look of our popups didn't quite align with users' mental model for popups: ours were unexpecedly scrollable and hard to exit out of.</li>
+                    <li>Font Size: the fonts across some of our pages were inconsistent and occasionally to small to read, even on mobile.</li>
+                    <li>Top Bar: users found it strange that the top bar disappeared when scrolling, while the home bar on the bottom was sticky. The original top bar also had mild inconsistencies accross pages and occasionally got cut off by the notch in the top of the iPhone screen.</li>
+                    </ul>
+                    To address these issues, we drafted a second version of the hi-fi prototype:
+                    </p>
+    </section>
+    <section class = "projects-section" id = "projects">
+        <h2>user Testing</h2>
+        <p>We conducted a remote usibility test using the service User Testing. Users received the following instructions before interacting with the protoype:
+
+            "Imagine you are using a user of NFTScoring who wants to explore new NFTs that you may not have seen before. Navigate through the app until you find a popup for a trending NFT. Please think out loud with any thoughts that come to your head as you navigate through our site to help us understand your thinking!"
+            
+            Click on any of the below images to watch each user interact with the protoype:</p>
+            <div class = "userTestWrapper">
+                <a href="https://app.usertesting.com/v/828f9186-60a5-4395-a61f-91dc8fd40bfa?encrypted_video_handle=518c6eb0-4255-4b0c-9805-9bc006e63f36#!/notes&amp;shared_via=link " target="_blank">
+                    <div class="userTest">
+                    <img src="images/UserTest1.jpeg" width = "300px">
+                    </div>
+                </a>
+                <a href="https://app.usertesting.com/v/c7904919-3097-42bd-b833-e5782e27bf37?encrypted_video_handle=5c9cf38d-0296-4816-8ce1-ac9cb9a3d2a6#!/notes&amp;shared_via=link" target="_blank">
+                    <div class="userTest">
+                    <img style="padding-bottom: .2vm" src="images/UserTest2.jpeg" width = "300px">
+                    </div>
+                </a>
+                <a href="https://app.usertesting.com/v/c721a7ac-4aac-4785-8785-6193694d1f08?encrypted_video_handle=8b0be460-a671-4689-b55e-9bd1e833a38e#!/notes&amp;shared_via=link " target="_blank">
+                    <div class="userTest">
+                    <img style="padding-bottom: .2vm" src="images/UserTest3.jpeg" width = "300px">
+                    </div>
+                </a>
+            </div>
+            <h3>Conclusions</h3>
+            <p> 
+                <ul>
+                    <li>We made the decision to include the "discovery" page as part of the "search" page that is indicated by a search bar icon tab. However, users were initially confused and thought the homepage is where they would find "new NFTs".</li>
+                    <li>Once they did figure out that the homepage was a social page, they navigated to the "search" page to find a new NFT, as the task asks them to do. However, users spent time figuring out what the difference was between the search bar on top and advanced search.</li>
+                    <li>In general, users were able to talk through and understand the "discovery" page as the place to explore new NFTs. However, a user who had to look up what an NFT is was really confused and did not even try to understand the statistics that show up. This indicates that we could have made our design more explicit for NFT newcomers.</li>
+                    <li>When the user who did not know what the NFT was read the task, they said that they did not know what an NFT was and looked at the top right corner of the homepage for a "question mark icon". However, they found it later in the bottom right corner. To make people unfamiliar with NFTs more comfortable, we could have included a tutorial or tips as the user enters the app.</li>
+                    <li> After arriving to the "discovery" page, users understood that the search bar on top was for them to enter any keyword to find relevant NFTs and the sections below were other ways of exploring new NFTs like the "trending" section.</li>
+                </ul>
+            </p>
+        </section>
+        <section class = "projects-section" id = "projects">
+            <h2>Email to Founders</h2>
+            <p>As part of our last task, we reached out to the NFTScoring founders to let them know about our assignment, explain our design choices and invite them to look at our Figma.
+
+                Hello NFTScoring founders,
+                
+                I am XXXXX, a student at Brown University. My peers (cc’d in this email) – XXXX, XXXX, XXXX – and I were tasked to design mockups for a YCombinator startup as an assignment for our UI/UX course. We chose NFTScoring because we are super interested in your vision of giving people superpowers to understand the NFT markets!
+                
+                As part of the assignment, we came up with NFTScoringapp designs without looking at any of the interfaces you have built, coming up with designs solely based on NFTScoring's description on the YC webpage. Our design intention was to build a platform that made information about NFTs accessible to the general public that might be intimidated by the new technology. A problem that we came across when doing this was that there is an overwhelming amount of information on the NFT market for a smaller mobile screen to display. To mitigate this issue, we intentionally included a lot of whitespace on our mockups and organized the app into five distinct pages with their own purposes.
+                
+                We also wanted to add a social aspect to the platform since the NFT market is very community-driven. A social feed is included as the first page users will see; we did this because it is a great way to promote trading and provides a feature that cannot be found in most NFT market platforms. A social network for NFTs would be valuable for newcomers to learn more about the market, for experts to build their brand by promoting their knowledge, and for the NFT community as a whole to have a collaboration hub.
+                
+                Thank you for taking the time to read this! If you have the time, we would appreciate it if you would look at our Figma for the mockups (linked here). You can also step through an interactive prototype by pressing the play button in the top right corner.
+                
+                The four of us are excited to see where NFTScoring goes and wish you the best on your journey.</p>
+            </section>
+        <footer id = "contact">
+            <h2>Contact Me</h2>
+            <p>ariana_clark@brown.edu</p>
+            <div class = "socials">
+                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "www.linkedin.com/in/arianamclark">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </button>
+                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "https://github.com/creepycat999">
+                    <i class="fa-brands fa-github"></i>
+                </button>
+                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "https://github.com/creepycat999">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+            </div>
+        </footer>
+        <script src = "Iterativeapp.js">
+        </script>
+    </body>
+</html>

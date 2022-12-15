@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="RRstyle.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+        <title>Responsive Redesign</title>
+        <meta charset="UTF-8" />
+        <script src="https://kit.fontawesome.com/b56543adaf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id = "nav-burger">
+            <a class = "home"  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html"> <p>portfolio Home</p> </a>
+            <button class = "hamburger" id = "hamburger">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </nav>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <div class = "drop-down">
+                <ul id = "nav-list">
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#about-me">About Me</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#about-me#projects">Projects</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#about-me#contact">Contact</a></li>
+                </ul>
+            </div>
+        <section class = "hero"> 
+                <div class="hero-area">
+                    <div class="hero-text"> 
+                        <h1>Responsive Redesign</h1>
+                        <p>The goal of this assignment was to practice the workflow of redesigning a simple website. I took away the skills necessary to analyze and identify flaws in an existing interface, create low-fidelity and high-fidelity prototypes for various screen sizes, and build a responsive website based on those prototypes.</p>
+                        </div>
+                </div>
+        </section>
+        <section class = "projects-section" id = "projects">
+            <div class = "info">
+                <h2>Part 1: Identifying Usability Problems</h2>
+                <p>In this part, I chose one page of a movie theater website to analyze based on usability and accessibility standards. Then redesigned and build the redesigned version of this webpage.</p>
+               <br> <p>This website has a lot of character which I really appreciate and want to preserve. However, it was also perfect for a responsive redesign since the website doesn't even take up an entire browser screen. 
+                I found that it was made up of mostly images and not css or html, so it was not very adaptive to different sizes. </p>
+                <a class = "col" href="https://avoncinema.com"><img src="images/avonOG.png" alt="screenshot of avon website" style="width:80%"></a>
+                <br>
+                <a class = "project-link" href="https://avoncinema.com">Click the image above to go to the website</a>
+                <h4>Usability </h4> <br>
+                    <br>
+                    <p>Effeciency: This UI is not very effecient, as there is no clear heirarchy of functionality. Buttons exist on non-linear
+                        planes and do not look like eachother.  </p> <br>
+                    <p>Learnability:  It is hard to know where to click in the website, since buttons are not explicit.
+                        I expect a lot of trail an error on first use to try and navigate around the website to see which
+                        asepcts are photos and which are interactive.</p><br>
+                    <p>Memorability: Memorbility is easier once you have used the website a lot, however it is not like any other website
+                        and errors can absolutely appear. Once again, buttons like "show times" "coming soon" and "now playing" are hidden in the page.  </p> <br>
+                <h4> WAVE Score </h4> <br>
+                <p> 15 images without alternative text</p> <br>
+                <p> no heading structure, no page regions, and table layout is not uniform</p> <br>
+                <p> 39 examples of null alternative text (for the images that make up the background, they are like puzzle pieces so they are really hard to understand on their own. </p> <br>
+                <p> contrast is good! easy to read text</p> <br>
+            </div>
+        </section>
+        <section class = "projects-section" id = "projects">
+            <h2>part 2: Visual Redesign</h2>
+            <p>Based on the problems you identified in Part 1 and the page that I chose, I created low-fidelity wireframes, a visual design style guide, and high-fidelity prototypes.</p>
+            <h4>Lo-Fi Designs</h4>
+            <div class = "row">
+                <img class = "col" src="images/DesktopLoFi.png" alt="lofi screenshot" style="width:40%">
+                <img class = "col" src="images/TabletLoFi.png" alt="lofi screenshot" style="width:30%">
+                <img class = "col" src="images/mobileLoFi.png" alt="lofi screenshot" style="width:30%">
+                </div>
+            <h4>Hi-Fi Designs</h4>
+            <p>The Figma linked below includes my Visual Design Style Guide and Three hi-fidelity prototypes for: web, tablet, and mobile. <br>
+            there are comments on the figma for dev reproduction. </p>
+            <div class="figma">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FG9O4CoFRHI73gn5AsZZGgp%2FResponsive-Redesign%3Fnode-id%3D0%253A1%26t%3DN12Dd8TOprFZ2rQA-1" allowfullscreen></iframe></div>
+        </section>
+        <section class = "projects-section" id = "projects">
+            <h2>part 3: Responsive Redesign</h2>
+            <p>Using the final high-fidelity prototypes, I created the page using HTML and CSS! Buttons or navigational elements are replaced with dummy elements (for now).</p>
+            <div class = "row">
+                <a class = "col" href="https://creepycat999.github.io/Responsive-Redesign/AvonCinema"><img src="images/website_screenshot.png" alt="screenshot of redesigned avon website" style="width:100%"></a>
+                <a class = "col" href="https://creepycat999.github.io/Responsive-Redesign/AvonCinema"><img src="images/tablet.png" alt="screenshot of redesigned avon website"style="width:100%"></a>
+                <a class = "col" href="https://creepycat999.github.io/Responsive-Redesign/AvonCinema"><img src="images/mobile.png" alt="screenshot of redesigned avon website" style="width:100%"></a>
+            </div>
+            <a class = "project-link" href="https://creepycat999.github.io/Responsive-Redesign/AvonCinema">Click the images above to go to the website</a>
+            </section>
+        <footer id = "contact">
+            <h2>Contact Me</h2>
+            <p>creepy_cat@brown.edu</p>
+        </footer>
+        <script src = "RRapp.js"></script>
+    </body>
+</html>

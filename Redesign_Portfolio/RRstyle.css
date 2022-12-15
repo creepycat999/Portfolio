@@ -1,0 +1,191 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+section {
+    background-color: white;
+}
+#accessibility-list{
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+}
+#nav-burger{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav-list{
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    font-size: 30px;
+}
+
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.hero{
+    background-color: white;
+    height: 100vh;
+    color: black;
+    font-size: 40px;
+}
+footer{
+    background-color: darkgreen;
+    color: pink;
+    text-align: center;
+    padding: 80px;
+}
+#accessibility-list{
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    font-size: 30px;
+}
+
+h1{
+    color: darkgreen;
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 100;
+}
+.sub-text{
+    font-size: 15px;
+    font-weight: 300;
+}
+.hero-area{
+    display: flex;
+    height: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.hero-text{
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+  
+.col {
+    flex: 33.33%;
+    padding: 20px;
+}
+
+#icon{
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent;
+    color: pink;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 30px; /* Increase font size */
+}
+#icon:hover{
+    color: white;
+}
+.home{
+    font-size: 25px;
+    color: black;
+}
+.home:hover{
+    color: red;
+}
+
+.figma{
+    padding-top: 15px;
+}
+
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent;
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 24px; /* Increase font size */
+  }
+  #myBtn:hover {
+    color: red; 
+  }
+#nav-item{
+    padding-right: 15px;
+}
+#nav-item:hover{
+    color: red;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+.hamburger{
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+}
+#nav-list{
+    display: none;
+}
+
+.drop-down{
+    text-align: right;
+}
+
+#nav-list.show{
+    display: block;
+    text-align: right;
+    float: right;
+    list-style-type: none;
+    width: 300px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.project-link{
+    text-decoration: none;
+    color: darkgreen
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

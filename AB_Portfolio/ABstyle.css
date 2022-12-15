@@ -1,0 +1,213 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+section {
+    background-color: white;
+}
+.aboutme-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.hero{
+    background-color: white;
+    height: 100vh;
+    color: black;
+    font-size: 40px;
+}
+.home{
+    font-size: 25px;
+    color: black;
+}
+.home:hover{
+    color: red;
+}
+footer{
+    background-color: darkgreen;
+    color: pink;
+    text-align: center;
+    padding: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+ul.show{
+    display: block;
+}
+li{
+    text-decoration: none;
+}
+h1{
+    color: darkgreen;
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 100;
+}
+.sub-text{
+    font-size: 15px;
+    font-weight: 300;
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.button{
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: coral;
+
+}
+.button:active{
+    background-color: lightcyan;
+}
+
+#icon{
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent;
+    color: pink;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 30px; /* Increase font size */
+}
+#icon:hover{
+    color: white;
+}
+
+.headshot{
+    width: 400px;
+    border-radius: 200px;
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+.project-card{
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px lightgrey;
+    margin: 10px
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    margin-top: 30px;
+    width: 250px;
+    border-radius: 125px;
+
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: darkgreen
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger{
+    display: none;
+}
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: red;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    ul{
+        display: none;
+        background-color: beige;
+        margin: 0px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: beige;
+    }
+
+    ul.show{
+        display: block;
+    }
+}
+
+#myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: transparent;
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 24px; /* Increase font size */
+  }
+  #myBtn:hover {
+    color: red; 
+  }
