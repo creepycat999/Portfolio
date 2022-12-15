@@ -8,20 +8,31 @@
         <script src="https://kit.fontawesome.com/b56543adaf.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav id = "nav-burger">
+            <a class = "home"  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html"> <p>Portfolio Home</p> </a>
+            <button class = "hamburger" id = "hamburger">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </nav>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <div class = "drop-down">
+                <ul id = "nav-list">
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#about-me">About Me</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#projects">Projects</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#contact">Contact</a></li>
+                </ul>
+            </div>
         <section class = "hero">
-            <a class = "home" href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html">
-                portfolio 
-            </a>
-                <button class = "hamburger" id = "hamburger">
-                    <i class = "fas fa-bars"> </i>
-                </button>
-                <button onclick="topFunction()" id="myBtn" title="Go to top">
-                    top
-                    <i class="fa-solid fa-arrow-up"></i>
-                </button>
             <div class="hero-area">
                 <div class="hero-text"> 
-                    <h1>Iterative Redesign</h1>
+                    <h1>Iterative Design</h1>
                     <p>NFTScoring is an NFT trading platform with the goal of giving NFT investors all the information needed in order to make smart decisions when buying or selling NFTs. Anyone can use a free account, but there is also a premium version for users to gain more access.
                         In this group project, we designed a mobile app for the platform using an iterative user-testing process to incorporate feedback into our final product. We expect our app to serve users within a range between beginners and moderately knowledgable about NFTs. The aim is to create a product that is easy to navigate for users who are new to NFT trading.</p> 
                 </div>
@@ -69,7 +80,7 @@
                     </p>
     </section>
     <section class = "projects-section" id = "projects">
-        <h2>user Testing</h2>
+        <h2>User Testing</h2>
         <p>We conducted a remote usibility test using the service User Testing. Users received the following instructions before interacting with the protoype:
 
             "Imagine you are using a user of NFTScoring who wants to explore new NFTs that you may not have seen before. Navigate through the app until you find a popup for a trending NFT. Please think out loud with any thoughts that come to your head as you navigate through our site to help us understand your thinking!"
@@ -96,18 +107,18 @@
             <p> 
                 <ul>
                     <li>We made the decision to include the "discovery" page as part of the "search" page that is indicated by a search bar icon tab. However, users were initially confused and thought the homepage is where they would find "new NFTs".</li>
-                    <li>Once they did figure out that the homepage was a social page, they navigated to the "search" page to find a new NFT, as the task asks them to do. However, users spent time figuring out what the difference was between the search bar on top and advanced search.</li>
-                    <li>In general, users were able to talk through and understand the "discovery" page as the place to explore new NFTs. However, a user who had to look up what an NFT is was really confused and did not even try to understand the statistics that show up. This indicates that we could have made our design more explicit for NFT newcomers.</li>
-                    <li>When the user who did not know what the NFT was read the task, they said that they did not know what an NFT was and looked at the top right corner of the homepage for a "question mark icon". However, they found it later in the bottom right corner. To make people unfamiliar with NFTs more comfortable, we could have included a tutorial or tips as the user enters the app.</li>
-                    <li> After arriving to the "discovery" page, users understood that the search bar on top was for them to enter any keyword to find relevant NFTs and the sections below were other ways of exploring new NFTs like the "trending" section.</li>
+                   <br> <li>Once they did figure out that the homepage was a social page, they navigated to the "search" page to find a new NFT, as the task asks them to do. However, users spent time figuring out what the difference was between the search bar on top and advanced search.</li>
+                   <br> <li>In general, users were able to talk through and understand the "discovery" page as the place to explore new NFTs. However, a user who had to look up what an NFT is was really confused and did not even try to understand the statistics that show up. This indicates that we could have made our design more explicit for NFT newcomers.</li>
+                   <br> <li>When the user who did not know what the NFT was read the task, they said that they did not know what an NFT was and looked at the top right corner of the homepage for a "question mark icon". However, they found it later in the bottom right corner. To make people unfamiliar with NFTs more comfortable, we could have included a tutorial or tips as the user enters the app.</li>
+                   <br> <li> After arriving to the "discovery" page, users understood that the search bar on top was for them to enter any keyword to find relevant NFTs and the sections below were other ways of exploring new NFTs like the "trending" section.</li>
                 </ul>
             </p>
         </section>
         <section class = "projects-section" id = "projects">
             <h2>Email to Founders</h2>
-            <p>As part of our last task, we reached out to the NFTScoring founders to let them know about our assignment, explain our design choices and invite them to look at our Figma.
+            <p>As part of our last task, we reached out to the NFTScoring founders to let them know about our assignment, explain our design choices and invite them to look at our Figma. <br>
 
-                Hello NFTScoring founders,
+                <br><em>Hello NFTScoring founders,
                 
                 I am XXXXX, a student at Brown University. My peers (cc’d in this email) – XXXX, XXXX, XXXX – and I were tasked to design mockups for a YCombinator startup as an assignment for our UI/UX course. We chose NFTScoring because we are super interested in your vision of giving people superpowers to understand the NFT markets!
                 
@@ -117,21 +128,14 @@
                 
                 Thank you for taking the time to read this! If you have the time, we would appreciate it if you would look at our Figma for the mockups (linked here). You can also step through an interactive prototype by pressing the play button in the top right corner.
                 
-                The four of us are excited to see where NFTScoring goes and wish you the best on your journey.</p>
+                The four of us are excited to see where NFTScoring goes and wish you the best on your journey.</em>
             </section>
             <footer id = "contact">
                 <h2>Contact Me</h2>
-                <p>creepy_cat@brown.edu</p>
+                <a id= "icon" href="mailto:president@brown.edu">creepy_cat@brown.edu</a>
                 <div class = "socials">
-                    <button onclick="topFunction()" id="icon" title="LinkedIn" href = "www.linkedin.com">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </button>
-                    <button onclick="topFunction()" id="icon" title="GitHub" href = "https://github.com/creepycat999">
-                        <i class="fa-brands fa-github"></i>
-                    </button>
-                    <button onclick="topFunction()" id="icon" title="Email" href = "https://github.com/creepycat999">
-                        <i class="fa-solid fa-envelope"></i>
-                    </button>
+                    <a id = "icon" href = "https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a id = "icon" href = "https://github.com/creepycat999"><i class="fa-brands fa-github"></i></a>>
                 </div>
             </footer>
         <script src = "Iterativeapp.js">

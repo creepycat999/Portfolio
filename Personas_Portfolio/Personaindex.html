@@ -8,21 +8,33 @@
         <script src="https://kit.fontawesome.com/b56543adaf.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav id = "nav-burger">
+            <a class = "home"  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html"> <p>Portfolio Home</p> </a>
+            <button class = "hamburger" id = "hamburger">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </nav>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <div class = "drop-down">
+                <ul id = "nav-list">
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#about-me">About Me</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#projects">Projects</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#contact">Contact</a></li>
+                </ul>
+            </div>
         <section class = "hero">
-            <a class = "home" href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html">
-                portfolio 
-            </a>
-                <button class = "hamburger" id = "hamburger">
-                    <i class = "fas fa-bars"> </i>
-                </button>
-                <button onclick="topFunction()" id="myBtn" title="Go to top">
-                    top
-                    <i class="fa-solid fa-arrow-up"></i>
-                </button>
                 <div class="hero-area">
                     <div class="hero-text"> 
-                        <h1>Personas</h1>
-                        <p> </p>
+                        <h1>Personas & Storyboarding</h1>
+                        <p>Step into a user’s shoes. For this project I observed real users interacting with an interface, interviewed these individuals about their experiences, created personas based on these users, and illustrated a storyboard for one of my personas.
+                        </p>
                     </div>
                 </div>
         </section>
@@ -34,13 +46,13 @@
                          <b>Purpose:</b> The Creston interface is a touch screen device that allows users to interact with the creston audio and projector which are both already integrated into the room. The purpose of the interface is to make it easy for teachers and students to connect their personal devices (normally laptops) to the rest of the Creston audiovisual devices in one centralized interface. It's key componets are the airplay and laptop buttons which allow you to select how you want to display your screen. The audio and shutdown buttons are also used often. You can control the room's lights by using either the Creston or the light switch on the side of the room. <br> <br>
                          I observed 3 different users interact with this interface. Two were students and one was a professor.<br> <br>
                         Questions for the observed users:
-                   <ol>
+                   <ul>
                  <li> How did the way you used the Creston interface compare to your expectations?</li>
                  <li>What can you do with Creston?</li>
                  <li>When do you usually interact with Creston?</li>
                  <li>What part about using the Creston took you the most time? </li>
                  <li>Why did you decide to use the Creston?</li>
-               </ol> <br> <br>
+               </ul> <br> <br>
                Summary of user responses and observations: 
                <ul>
                  <li>Two of the users did not find the interface intuitive, it took a few tries to find the right button to do what they expected it to do. </li>
@@ -55,9 +67,11 @@
         <section class = "projects-section" id = "projects">
             <h2>part 2: Personas</h2>
             <p>I have created two empathy maps, each for an archetypal user persona of the Creston.</p>
-	 <img src="JarEM.png" alt="Empathy map for person #1 'Jar'" style="width:40%">
-	 <img src="MarEM.png" alt="Empathy map for person #2 'Mar'" style="width:40%"> <br><br>
-	 <h2>Stage 3: Storyboard</h2> <br>
+    <div class = "row">
+        <img class = "col" src="JarEM.png" alt="Empathy map for person #1 'Jar'" style="width:40%">
+	    <img class = "col" src="MarEM.png" alt="Empathy map for person #2 'Mar'" style="width:40%"> <br><br>
+    </div>
+     <h2>Stage 3: Storyboard</h2> <br>
 	 <p>
 	 	Here is a storyboard for the user journey of my persona Mar. <br><br>
 	 	<img src="sb1.png"  style="width:80%"> 
@@ -69,17 +83,10 @@
         </section>
         <footer id = "contact">
             <h2>Contact Me</h2>
-            <p>creepy_cat@brown.edu</p>
+            <a id= "icon" href="mailto:president@brown.edu">creepy_cat@brown.edu</a>
             <div class = "socials">
-                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "www.linkedin.com">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </button>
-                <button onclick="topFunction()" id="icon" title="GitHub" href = "https://github.com/creepycat999">
-                    <i class="fa-brands fa-github"></i>
-                </button>
-                <button onclick="topFunction()" id="icon" title="Email" href = "https://github.com/creepycat999">
-                    <i class="fa-solid fa-envelope"></i>
-                </button>
+                <a id = "icon" href = "https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a id = "icon" href = "https://github.com/creepycat999"><i class="fa-brands fa-github"></i></a>
             </div>
         </footer>
         <script src = "Personaapp.js"></script>

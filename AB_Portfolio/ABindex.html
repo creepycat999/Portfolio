@@ -3,83 +3,103 @@
     <head>
         <link rel="stylesheet" href ="ABstyle.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
-        <title>A/B Testing</title>
+        <title>Eye Tracking</title>
         <meta charset="UTF-8" />
         <script src="https://kit.fontawesome.com/b56543adaf.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav id = "nav-burger">
+            <a class = "home"  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html"> <p>Portfolio Home</p> </a>
+            <button class = "hamburger" id = "hamburger">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </nav>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                top
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <div class = "drop-down">
+                <ul id = "nav-list">
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#about-me">About Me</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#projects">Projects</a></li>
+                    <li id = "nav-item"><a  href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html#contact">Contact</a></li>
+                </ul>
+            </div>
         <section class = "hero">
-            <a class = "home" href = "file:///Users/arianaclark/Desktop/UIUX/Portfolio/Portfolio/index.html">
-                portfolio 
-            </a>
-                <button class = "hamburger" id = "hamburger">
-                    <i class = "fas fa-bars"> </i>
-                </button>
-                <button onclick="topFunction()" id="myBtn" title="Go to top">
-                    top
-                    <i class="fa-solid fa-arrow-up"></i>
-                </button>
             <div class="hero-area">
                 <div class="hero-text"> 
-                    <h1>A/B Testing</h1>
-                    <p>CS Major at Brown University</p> 
+                    <h1>Eye Tracking</h1>
+                    <p>The goal of this assignment was to understand the value of quantitative and 
+                        qualitative user tests for evaluating different UI designs. My group and I collected and analyzed
+                         user behavior through qualitative data in Eye Tracking.
+                         <br><br>
+                         I chose to highlight this project to demonstrarte both my technical skills and further display my Figma redesign capabilities. 
+                    </p> 
                 </div>
             </div>
         </section>
         <section class = "projects-section" id = "projects">
-                <h2>About Me</h2>
-                <p> hello my name is Ariana and i am a junior at brown studying computer science and native american studies</p>
-            </div>
+            <h2>Part 1: Eye Tracking</h2>
+            <p>Below is a Figma of a bakery homepage made by the TAs for my course, 
+                we created 2 new versions, A and B that redesigned the website.
+                I considered principles discussed in class, usability, hierarchy, conceptual models. 
+            </p>
+            <div class="figma">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FSbV5CECXvYKAtL6vuSxYpD%2FThe-Nested-Bakery-Home-Page-Template%3Fnode-id%3D0%253A1%26t%3Dt1YWY932mhTFrrbe-1" allowfullscreen></iframe></div>
+            <h3>Redesigning the Figma</h3>
+            <h4>Version A:</h4>
+            <p>Below is the redesigned Figma that I made going off of the template above. 
+            </p>
+            <div class="figma">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FHQDbXjLmRPOTO8M4Pek8Y4%2FThe-Nested-Bakery-Home-Page-Template-B%3Fnode-id%3D0%253A1%26t%3D81ltPxuCeYlDHSIc-1" allowfullscreen></iframe></div>
+            <h4>Version B:</h4>
+            <p>Below is the redesigned Figma that my partner made going off of the template above. 
+            </p>
+            <div class="figma">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FQJlaUIY5anOdiE19K3zdgb%2FThe-Nested-Bakery-Home-Page-Template-(Copy)%3Fnode-id%3D0%253A1%26t%3DjHw9Lia2rh5d4Khx-1" allowfullscreen></iframe><h3>Eye-Tracking</h3>
+            <p>To analyze our eye tracking data, we generated a heatmap (a still image that depicts
+                 where our participants’ gazes were fixed) and an animated replay of their gaze motion,
+                 both overlaid on your interface so you can see what interface elements test participants 
+                 were looking at.</p>
+                 <h3>User Prompt:</h3>
+                 <p>We asked each user (one was looking at each Figma) the following question:</p> <br>
+                 <p>"Get familliar with the websites, then try and custom order a cake (with your eyes only)"</p>
+            <h3>Results</h3>
+            <p>Heatmaps</p> 
+            <h4>Version A:</h4>
+            <img class ="map" src = "1024EyeData/heat.jpeg" alt = "heatmap version A" style = "width: 600px"/>
+            <h4>Version B:</h4>
+            <img class ="map" src = "1024EyeData/heatB.jpeg" alt = "heatmap version B" style = "width: 600px"/>
+            <p>Action Shots</p> 
+            <h4>Version A:</h4>
+            <img class ="map" src = "1024EyeData/action.jpeg" alt = "heatmap version A" style = "width: 600px"/>
+            <h4>Version B:</h4>
+            <img class ="map" src = "1024EyeData/actionB.jpeg" alt = "heatmap version B" style = "width: 600px"/>
+            <p>Final shot</p> 
+            <h4>Version A:</h4>
+            <img class ="map" src = "1024EyeData/final.jpeg" alt = "heatmap version A" style = "width: 600px"/>
+            <h4>Version B:</h4>
+            <img class ="map" src = "1024EyeData/finalB.jpeg" alt = "heatmap version B" style = "width: 600px"/>
+        <h3>Interpretation</h3>
+        <p>The heatmap indicates that both users focused their attention on the "cake" section, this was expected since the Prompt
+            was to order a cake. Then they went to the "Order" and "Our Story" section for Version A, and the "Our Story" and "Contact" section for Version B. 
+            Verson A's reaction aligns with our hypothesis, they found the cake section and then settled on the order button. Version B did not have an "order" option, 
+            so I expected them to spend most of their time on the cake, not the menu bar, however, they ended up looking at two menu items that did not necessariarly have 
+            anything to do with ordering, this was a surprise.
+        </p>
         </section>
-        <section class = "projects-section" id = "projects">
-            <h2>Projects</h2>
-            <div class = "project-container">
-                <div class = "project-card">
-                    <img class = "project-image" src = "" alt = ""/>
-                    <h3>Project 1</h3>
-                    <p class = "sub-text"> this is my first project</p>
-                    <hr/>
-                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
+            <footer id = "contact">
+                <h2>Contact Me</h2>
+                <a id= "icon" href="mailto:president@brown.edu">creepy_cat@brown.edu</a>
+                <div class = "socials">
+                    <a id = "icon" href = "https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a id = "icon" href = "https://github.com/creepycat999"><i class="fa-brands fa-github"></i></a>
                 </div>
-                <div class = "project-card">
-                    <img class = "project-image" src = "" alt = ""/>
-                    <h3>Project 2</h3>
-                    <p class = "sub-text"> this is my first project</p>
-                    <hr/>
-                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
-                </div>
-                <div class = "project-card">
-                    <img class = "project-image" src = "" alt = ""/>
-                    <h3>Project 3</h3>
-                    <p class = "sub-text"> this is my first project</p>
-                    <hr/>
-                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
-                </div>
-                <div class = "project-card">
-                    <img class = "project-image" src = "" alt = ""/>
-                    <h3>Project 4</h3>
-                    <p class = "sub-text"> this is my first project</p>
-                    <hr/>
-                    <p class = "sub-text"><a class = "project-link" href = ""> view here </a></p>
-                </div>
-
-            </div>
-        </section>
-        <footer id = "contact">
-            <h2>Contact Me</h2>
-            <p>creepy_cat@brown.edu</p>
-            <div class = "socials">
-                <button onclick="topFunction()" id="icon" title="LinkedIn" href = "www.linkedin.com">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </button>
-                <button onclick="topFunction()" id="icon" title="GitHub" href = "https://github.com/creepycat999">
-                    <i class="fa-brands fa-github"></i>
-                </button>
-                <button onclick="topFunction()" id="icon" title="Email" href = "https://github.com/creepycat999">
-                    <i class="fa-solid fa-envelope"></i>
-                </button>
-            </div>
-        </footer>
+            </footer>
         <script src = "ABapp.js">
         </script>
     </body>

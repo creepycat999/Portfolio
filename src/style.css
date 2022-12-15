@@ -35,7 +35,7 @@ nav{
     justify-content: space-between;
 }
 #nav-item:hover{
-    color: red;
+    color: pink;
 }
 ul{
     display: flex;
@@ -60,6 +60,7 @@ h2{
 }
 h3{
     font-size:20px;
+    font-weight: 100;
 }
 
 p{
@@ -119,12 +120,7 @@ p{
     display: flex;
     align-items: center;
 }
-.project-card{
-    width: 300px;
-    height: 300px;
-    box-shadow: 5px 5px 5px lightgrey;
-    margin: 15px
-}
+
 .project-container{
     display: flex;
     justify-content: space-around;
@@ -138,10 +134,7 @@ p{
 }
 
 .project-image{
-    margin-top: 30px;
-    width: 250px;
-    border-radius: 125px;
-
+    display: flex;
 }
 hr{
     margin-left: 20px;
@@ -170,7 +163,7 @@ a{
         display: block;
         border: 0;
         background-color: transparent;
-        color: red;
+        color: pink;
         font-size: 30px;
         margin: 20px;
         align-self: flex-end;
@@ -206,5 +199,61 @@ a{
     font-size: 24px; /* Increase font size */
   }
   #myBtn:hover {
-    color: red; 
+    color: pink; 
   }
+  
+
+.img-hover-zoom:hover img {
+    transform: scale(0.9);
+}
+  
+  
+.fit{
+    width: 100%;
+}
+  
+.work{
+    display: grid;
+    grid-template:repeat(2,1fr)/repeat(2,1fr);
+    justify-content: space-evenly;
+    align-items: baseline;
+    grid-gap: 5rem;
+    }
+
+.home-item a{
+    text-decoration: none;
+}
+
+.title{
+    color: darkgreen;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-decoration:none;
+    border-bottom: 1px solid pink;
+}
+
+p.des{
+    margin-top: 1px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+}
+a.link:hover{
+    background-position-y:70%;
+}
+
+.img-hover-zoom {
+    overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+
+.img-hover-zoom:hover img {
+  transform: scale(0.9);
+}

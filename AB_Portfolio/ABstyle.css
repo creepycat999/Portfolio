@@ -18,9 +18,71 @@ section {
     text-align: center;
     padding: 80px;
 }
+#nav-burger{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav-list{
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    font-size: 30px;
+}
+#nav-item{
+    padding-right: 15px;
+}
+#nav-item:hover{
+    color: pink;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+.hamburger{
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: pink;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+#nav-list{
+    display: none;
+}
+
+.drop-down{
+    text-align: right;
+}
+
+#nav-list.show{
+    display: block;
+    text-align: right;
+    float: right;
+    list-style-type: none;
+    width: 300px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.project-link{
+    text-decoration: none;
+    color: darkgreen
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
 .hero{
     background-color: white;
-    height: 100vh;
+    height: 50%;
     color: black;
     font-size: 40px;
 }
@@ -29,7 +91,7 @@ section {
     color: black;
 }
 .home:hover{
-    color: red;
+    color: pink;
 }
 footer{
     background-color: darkgreen;
@@ -41,19 +103,7 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-ul{
-    display: flex;
-    list-style-type: none;
-    width: 600px;
-    justify-content: space-around;
-    font-size: 30px;
-}
-ul.show{
-    display: block;
-}
-li{
-    text-decoration: none;
-}
+
 h1{
     color: darkgreen;
     font-size: 60px;
@@ -80,24 +130,7 @@ p{
     margin-left: 40px;
     margin-bottom: 100px;
 }
-.button{
-    width: 200px;
-    height: 55px;
-    border-radius: 30px;
-    background-color: white;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-    padding-top: 5px;
-    margin-top: 20px;
-}
-.button:hover{
-    background-color: coral;
 
-}
-.button:active{
-    background-color: lightcyan;
-}
 
 #icon{
     z-index: 99; /* Make sure it does not overlap */
@@ -113,13 +146,16 @@ p{
 #icon:hover{
     color: white;
 }
-
-.headshot{
-    width: 400px;
-    border-radius: 200px;
+.sketch{
+    float:none;
+    width: 33.33%;
+    padding: 5px;
 }
-.headshot-container{
-    display: flex;
+.wireframe{
+    width: 175px;
+}
+.image-container{
+    padding-top: 5%;
     align-items: center;
 }
 .project-card{
@@ -133,19 +169,7 @@ p{
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 1000px){
-    .project-container{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
 
-.project-image{
-    margin-top: 30px;
-    width: 250px;
-    border-radius: 125px;
-
-}
 hr{
     margin-left: 20px;
     margin-right: 20px;
@@ -161,39 +185,6 @@ a{
     color: black;
 }
 
-.hamburger{
-    display: none;
-}
-.hamburger:focus{
-    outline: 0;
-}
-
-@media only screen and (max-width: 1000px){
-    .hamburger{
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: red;
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-    }
-    ul{
-        display: none;
-        background-color: beige;
-        margin: 0px;
-    }
-    nav{
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: beige;
-    }
-
-    ul.show{
-        display: block;
-    }
-}
-
 #myBtn {
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -207,7 +198,26 @@ a{
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 24px; /* Increase font size */
-  }
-  #myBtn:hover {
-    color: red; 
-  }
+}
+#myBtn:hover {
+    color: pink; 
+}
+
+.figma{
+    align-items: center;
+    padding-top: 5%;
+}
+.userTestWrapper {
+    align-items: center; 
+}
+  
+.userTest{
+    margin: .6vmax;
+    display:flex ;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.map{
+    text-align: center;
+}
