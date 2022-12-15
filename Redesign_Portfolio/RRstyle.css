@@ -29,8 +29,6 @@ li{
     width: 600px;
     font-size: 30px;
 }
-
-
 .projects-section{
     display: flex;
     flex-direction: column;
@@ -39,7 +37,7 @@ li{
 }
 .hero{
     background-color: white;
-    height: 100vh;
+    height: 50%;
     color: black;
     font-size: 40px;
 }
