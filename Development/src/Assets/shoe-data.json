@@ -1,0 +1,113 @@
+[
+    {
+        "name": "NEXGRIP RUBY WATERPROOF MID-CALF WINTER WOMEN'S BOOT",
+        "color": ["Black"],
+        "price": 180,
+        "Types": ["boot", "waterproof"],
+        "description": "Nexgrip Canada's Ruby is a mid-calf waterproof boot with a sweater top.  Ruby has a hidden cleat system with nonslip technology.  The rust-resistant stainless steel cleats are easy to deploy (require no special tools). Temperature rated: -35° C.",
+        "imageNum": 1,
+        "Other": []
+    },
+
+    {
+        "name": "COUGAR HULA STRETCH-KNIT SLIP ON SNEAKER",
+        "color": ["Black"],
+        "price": 59.95,
+        "Types": ["sneaker"],
+        "description": "Cougar's Hula is an ultra-lightweight shoe made from breathable stretch-knit fabric. Say goodbye to sweaty feet and painful blisters. The top of the shoe is made from a polyester-blend stretch-knit material. The machine knitted blend is breathable, flexible, and stretches to your foot shape the moment you put them on. Pair Hula with your summer dresses to give them an edgy look.",
+        "imageNum": 2,
+        "Other": []
+    },
+    
+    {
+        "name": "MIZ MOOZ LETTY CAP TOE TIE OXFORD",
+        "color": ["Red"],
+        "price": 139,
+        "Types": ["dress shoe"],
+        "description": "The Miz Mooz Letty is a sleek take on a traditional Derby style.  Letty's classic lines work equally well with jeans, dresses and work trousers, and suits. Sometimes called Blucher or Gibson, this vintage-inspired version features a soft leather upper, cap toe, and laces for a perfect fit.",
+        "imageNum": 3,
+        "Other": []
+    },
+    {
+        "name": "TROENTORP TURNER CLOG BOOT",
+        "color": ["Brown"],
+        "price": 199,
+        "Types": ["boot","clog"],
+        "description": "Troentorp's Turner is a pull on clog boot.  Handcrafted in Sweden, we present the Turner clog boot for your pleasure! This Troentorp clog boot comes with a zipper on the inside and a soft leather lining. ",
+        "imageNum": 4,
+        "Other": []
+    },
+    {
+        "name": "SANITA EVERLY 471127 MARY JANE CLOG",
+        "color": ["Red"],
+        "price": 133,
+        "Types": ["dress shoe","clog"],
+        "description": "Sanita's Everly features a beautifully versatile wine color with subtle black undertones.  An adjustable strap with buckle, an anatomically correct footbed, and a rocker bottom sole are why Everly is a perennial bestseller, and is especially perfect for high arches and tired feet.  ",
+        "imageNum": 5,
+        "Other": []
+    },
+    {
+        "name": "ARCOPEDICO SHOCKS LS1151 KNIT UPPER WALKING SHOE",
+        "color": ["Black"],
+        "price": 112,
+        "Types": ["sneaker", "vegan"],
+        "description": "Arcopedico's Shocks feel like you are wearing super high-quality slippers with great support. The knit upper conforms to your feet, so no squished toes. They also make excellent travel companions and have a deodorizing anti-microbial insole, and a biodegradable non-slip sole.",
+        "imageNum": 6,
+        "Other": []
+    },
+    {
+        "name": "SANITA PRO CAB 457806 SMOOTH LEATHER CLOG",
+        "color": ["Black"],
+        "price": 133,
+        "Types": ["clog"],
+        "description": "Sanita's Pro Cab is an APMA-approved clog.  Features a padded instep, an anatomically correct footbed, and a microfiber insole and polyurethane outsole with a rocker bottom. The support and comfort are incredible and they are worn by hospitality workers, healthcare workers, and educators. ",
+        "imageNum": 7,
+        "Other": []
+    },
+    {
+        "name": "MEPHISTO NATTY SANDAL",
+        "color": ["Black"],
+        "price": 138.95,
+        "Types": ["sandal","dress shoe"],
+        "description": "Mephisto Natty women's sandal.  Natty is a strappy leather thong style sandal with an adjustable strap and soft cork footbed. It features Soft-Air Technology that relieves pressure on joints and spine. The cork and latex footbed is contoured with anatomical support for heel, arches, toes. The adjustable instep strap allows for a customized fit and the rubber outsole has excellent arch support and the firm footbed makes it a good choice for toes with hallux limitus/rigidus.  And, oh those colors!  We can see this paired with a tank dress or leggings. ",
+        "imageNum": 8,
+        "Other": []
+    },
+    {
+        "name": "NAOT RECLINE 20012 SLIPPER",
+        "color": ["Multi"],
+        "price": 59.95,
+        "Types": ["slipper", "vegan"],
+        "description": "Slip your feet into the vibrant Recline slipper by Naot. A woven polyester upper and soft fleece lining to keep your feet warm. The mattress foam padding insole provides comfort and support.",
+        "imageNum": 9,
+        "Other": []
+    },
+    {
+        "name": "NAOT KONA 26043 WATER RESISTANT LACE UP BOOT",
+        "color": ["Black"],
+        "price": 229.95,
+        "Types": ["boot", "waterproof"],
+        "description": "Naot's Kona Ankle Boot is lfeatures a metal shank and handsewn Strobel construction. Lace up for a perfect fit and inside zipper for easy entry. We like to style ours with dresses thanks to their feminine look and vintage feel.   Water resistant. ",
+        "imageNum": 10,
+        "Other": []
+    },
+    {
+        "name": "V ITALIA 926 MONICA ADJUSTABLE SLING BACK SANDAL",
+        "color": ["Green"],
+        "price": 84,
+        "Types": ["sandal"],
+        "description": "for long strolls around town.  A lightweight sling back sandal the back strap is adjustable for a perfect fit, Genova has a roomy toe box,  well-cushioned insoles, mid-level arch support, and a soft leather lining. Runs full and long.  ",
+        "imageNum": 11,
+        "Other": []
+    },
+    {
+        "name": "NAOT LOVE 17604 LACE UP ANKLE BOOT",
+        "color": ["Brown"],
+        "price": 199,
+        "Types": ["boot"],
+        "description": "Naot's Love is a lace-up bootie in distressed leather.  Part of the Bohemian collection, it fits a medium width and runs a bit short.  The 1.5-inch block heel and metal shank provide support and the orthopedic footbed provides cushioning and is removable.  Comfortable straight out of the box, they provide day-to-night comfort and style.  We wear ours with cropped jeans for a casual look and with flowy skirts and dresses for a boho-chic look.",
+        "imageNum": 12,
+        "Other": []
+    }
+]
+

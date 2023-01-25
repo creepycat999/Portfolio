@@ -1,0 +1,69 @@
+* {
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .page{
+    display: flex;
+  }
+  
+  .menu {
+    flex: 50%;
+    background-color: white;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 5px;
+    max-width: 16%;
+    min-width: 200px;
+  }
+  
+  .shoeImage {
+    width: 10vw;
+    height: 10vw
+  }
+  
+  .shoes{
+    padding: 2%;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    width: 18vw;
+    height: 30vw;
+    min-width: 200px;
+    min-height: 290px;
+    font-size: 20;
+  }
+  
+  .display{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 80%;
+  }
+  
+h3{
+    font-size: 30;
+  }
+  p{
+    font-size: 20;
+  }
+  
+  .selector {
+    background-color: white;
+    width: 100%;
+    
+    margin-top: 10%;
+  }
+  
